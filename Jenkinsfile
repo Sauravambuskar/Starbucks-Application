@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        jdk 'jdk21'
-        nodejs 'node16'
+        jdk 'jdk'
+        nodejs 'node18'
     }
     stages {
         stage ("Clean Workspace") {
